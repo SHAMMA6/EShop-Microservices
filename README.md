@@ -89,32 +89,5 @@ Welcome to the **Microservices Architecture with .NET** repository! This project
 - [Redis](https://redis.io/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-### Setup Instructions
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/microservices-architecture-dotnet.git
-   cd microservices-architecture-dotnet
-   ```
-2. Build and run using Docker:
-   ```sh
-   docker-compose up --build
-   ```
-3. Access services:
-   - API Gateway: `http://localhost:5000`
-   - Shopping Web Client: `http://localhost:5001`
-   - RabbitMQ Management UI: `http://localhost:15672` (default login: guest/guest)
-   - Redis: `localhost:6379`
-   - PostgreSQL: `localhost:5432`
-
----
-
-## 🛠️ Contribution Guidelines
-
-1. Fork the repository
-2. Create a new branch (`feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
 
 
